@@ -7,7 +7,7 @@ class Berita extends CI_Controller
 	{
 		$data['judul'] = "Berita Inyong";
 		$data['headline'] = "Selamat datang di berita inyong";	
-		$this->load->view('berita_view',$data);
+		$this->load->view('registrasi_view',$data);
 	}
 }
 ?>
